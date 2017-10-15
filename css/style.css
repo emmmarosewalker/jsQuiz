@@ -1,0 +1,43 @@
+html{
+    height: 85%;
+}
+body{
+    height: 100%;
+    background-image: url("https://fntbndls.global.ssl.fastly.net/product-img/eda3e9336d0c0f03625f9a49665a2f4f.jpg");
+}
+a{
+    color: #222;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+a:hover{
+    color: #ff93f6;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+#optionsWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 200px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+.pink-border{
+    border: 1px solid #ff93f6;
+}
+.inval-text{
+    color: red;
+    font-size: 80%;
+    visibility: hidden;
+}

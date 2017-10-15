@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main class="container bg-white pink-border mt-5 py-5 rounded" id="main">
+                                        <!-- Heading
+---------------------------------------------------------------->
+        <section class="row">
+            <article class="col-8 m-auto text-center">
+                <h1>Quiz</h1>
+            </article>
+        </section>
+                                        <!-- Quiz section sidebar
+---------------------------------------------------------------->
+        <section class="row py-3">
+            <article class="col-8 m-auto" id="quizMain">
+                                        <!-- Quiz section main
+---------------------------------------------------------------->
+                <div id="QuestionTitle">
+                    <h4>Q<span id="questionNo">1</span>. <span id="questionTitle">Question title</span></h4>
+                </div>
+                <div class="py-3" id="optionsWrapper">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="radioOptions" value="0">
+                                <strong>A.</strong> <span id="answer0"></span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="radioOptions" value="1">
+                                <strong>B.</strong> <span id="answer1"></span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="radioOptions" value="2">
+                                <strong>C.</strong> <span id="answer2"></span>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="radioOptions" value="3">
+                                <strong>D.</strong> <span id="answer3"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="inval-text" id="inval-feedback">
+                    Please select an option to continue.
+                </div>
+                <div id="nextButton">
+                    <a href="#" id="nextButtonLink" class="btn pink-border btn-block" role="button">
+                        Next
+                    </a>
+                </div>
+                <div class="pt-3" id="score">
+                    Score: 
+                </div>
+            </article>
+        </section>
+    </main>
+      
+    <!-- JS -->
+      
+    <script src="js/main.js"></script>
+  </body>
+</html>
